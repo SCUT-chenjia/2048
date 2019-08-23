@@ -19,7 +19,7 @@ def get_user_action(keyboard):
     return actions_dict[char]
 
 
-#对于行列想等的二维list做zip想当于转置了原list
+#对于行列相等的二维list做zip想当于转置了原list
 def transpose(field):
     return [list(row) for row in zip(*field)]
 
