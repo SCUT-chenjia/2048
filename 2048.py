@@ -2,9 +2,9 @@
 
 
 import curses
+import numpy as np
 from random import randrange, choice
 from collections import defaultdict
-import numpy as np
 
 
 actions = ['Up', 'Left', 'Down', 'Right', 'Restart', 'Exit']
