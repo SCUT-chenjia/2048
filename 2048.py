@@ -107,7 +107,6 @@ class GameField(object):
                 if row[i] != 0 and row[i + 1] == row[i]:        #情况二：某位置跟右边相邻位置值相等（最右边两个都是0的情况需要排除）
                     return True
                 return False
-
             return any(change(i) for i in range(len(row) - 1))
 
         check = {}
